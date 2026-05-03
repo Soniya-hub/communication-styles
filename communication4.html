@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Communication Styles Checklist</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+  h1 { color: #003366; }
+  h2 { color: #003366; margin-top: 30px; }
+  .category {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  .result { font-weight: bold; color: #003366; margin-top: 10px; }
+  label { display: block; margin-bottom: 6px; }
+  button {
+    background-color: #0073e6;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  button:hover { background: #005bb5; }
+  hr { margin: 30px 0; }
+</style>
+</head>
+<body>
+
+<h1>Communication Styles Assessment</h1>
+<p>Check all statements that describe you. Your totals update automatically below.</p>
+
+<!-- ================= RELATOR ================= -->
+<div id="Relator" class="category">
+  <h2>Relator • Peacemaker</h2>
+  <h3>Communication Style at Work</h3>
+  <label><input type="checkbox"> Seeks alignment between personal and organizational values.</label>
+  <label><input type="checkbox"> Are excellent communicators.</label>
+  <label><input type="checkbox"> Makes people feel valued and cared for.</label>
+  <label><input type="checkbox"> Creates a sense of community within an organization.</label>
+  <label><input type="checkbox"> Works well with staff members who support and cooperate with each other.</label>
+  <label><input type="checkbox"> Has difficulty tolerating inconsiderate people.</label>
+  <label><input type="checkbox"> Likes making a personal connection with people.</label>
+  <label><input type="checkbox"> Strives to bring harmony to any situation.</label>
+  <label><input type="checkbox"> Will focus on feelings first.</label>
+  <label><input type="checkbox"> Are sometimes too sensitive and worry about what other people will think of them.</label>
+  <label><input type="checkbox"> Communication strength is active listening.</label>
+  <label><input type="checkbox"> Believes people are an organization’s best asset.</label>
+
+  <h3>Personality & Behaviors</h3>
+  <label><input type="checkbox"> Easy-going, placid, amiable.</label>
+  <label><input type="checkbox"> Steady, reserved, low-key.</label>
+  <label><input type="checkbox"> Limited gestures, smooth and gentle.</label>
+  <label><input type="checkbox"> Eyes sometimes averted while listening attentively.</label>
+  <label><input type="checkbox"> Accepting, observant manner — indirect.</label>
+  <label><input type="checkbox"> Uses feeling language.</label>
+  <label><input type="checkbox"> Talks about personal experiences.</label>
+  <label><input type="checkbox"> Speech: slow, liquid, tentative; uses questioning tone in statements.</label>
+  <label><input type="checkbox"> May seem vague and unclear about what is wanted.</label>
+  <label><input type="checkbox"> Tends to lean away from the speaker.</label>
+  <label><input type="checkbox"> Waits for others to lead, then responds.</label>
+  <label><input type="checkbox"> Pays attention to a speaker’s emotional tone and non-verbal communication.</label>
+  <label><input type="checkbox"> Energy: introverted, quiet.</label>
+  <p class="result">Relator Total: <span id="relatorTotal">0</span></p>
+</div>
+
+<!-- ================= ANALYZER ================= -->
+<div id="Analyzer" class="category">
+  <h2>Analyzer • Truthkeeper</h2>
+  <h3>Communication Style at Work</h3>
+  <label><input type="checkbox"> Seeks alignment between people and organizational procedures.</label>
+  <label><input type="checkbox"> Works to enhance an organization’s reputation.</label>
+  <label><input type="checkbox"> Are rational and logical when working with people.</label>
+  <label><input type="checkbox"> Gives people the information and knowledge they need.</label>
+  <label><input type="checkbox"> Are experts in their field.</label>
+  <label><input type="checkbox"> Try to be as accurate as possible.</label>
+  <label><input type="checkbox"> Works well with staff who follow through and are well-organized.</label>
+  <label><input type="checkbox"> Have difficulty tolerating people who act without a rational basis.</label>
+  <label><input type="checkbox"> Are sometimes too detached and impersonal.</label>
+  <label><input type="checkbox"> Will focus on information first.</label>
+  <label><input type="checkbox"> Communication strength is precision in words and information.</label>
+  <label><input type="checkbox"> Believes planning is an organization’s best asset.</label>
+
+  <h3>Personality & Behaviors</h3>
+  <label><input type="checkbox"> Serious, reserved.</label>
+  <label><input type="checkbox"> Quiet, observant, cautious, inquisitive.</label>
+  <label><input type="checkbox"> May seem distant, tense, formal.</label>
+  <label><input type="checkbox"> Closed gestures (e.g., hands folded, pointed).</label>
+  <label><input type="checkbox"> Limited range in voice tone.</label>
+  <label><input type="checkbox"> Infrequent eye contact while listening.</label>
+  <label><input type="checkbox"> Cautious about revealing personal reactions.</label>
+  <label><input type="checkbox"> Talks about facts and data.</label>
+  <label><input type="checkbox"> Speech: deliberate, studied, slow.</label>
+  <label><input type="checkbox"> Uses little or no small talk.</label>
+  <label><input type="checkbox"> May seem watchful or preoccupied.</label>
+  <label><input type="checkbox"> Asks in-depth questions.</label>
+  <label><input type="checkbox"> Needs time to think before responding.</label>
+  <label><input type="checkbox"> Gathers all information before making a decision.</label>
+  <label><input type="checkbox"> May seem critical.</label>
+  <label><input type="checkbox"> Pays attention to a speaker’s words and information.</label>
+  <label><input type="checkbox"> Energy: introverted, reflective.</label>
+  <p class="result">Analyzer Total: <span id="analyzerTotal">0</span></p>
+</div>
+
+<!-- ================= BOSS ================= -->
+<div id="Boss" class="category">
+  <h2>Boss • Driver</h2>
+  <h3>Communication Style at Work</h3>
+  <label><input type="checkbox"> Seeks alignment between goals and output in an organization.</label>
+  <label><input type="checkbox"> Works hard to make the organization productive.</label>
+  <label><input type="checkbox"> Are goal-oriented when working with people.</label>
+  <label><input type="checkbox"> Gives people the product or skills they need.</label>
+  <label><input type="checkbox"> Can get a lot of things done in a short amount of time.</label>
+  <label><input type="checkbox"> Works well with staff who are task-oriented and act quickly.</label>
+  <label><input type="checkbox"> Have difficulty tolerating people who are slow in making decisions.</label>
+  <label><input type="checkbox"> Are sometimes too impulsive in their actions.</label>
+  <label><input type="checkbox"> Thrives on plans and time-lines.</label>
+  <label><input type="checkbox"> Will focus on actions first.</label>
+  <label><input type="checkbox"> Enjoys solving difficult problems.</label>
+  <label><input type="checkbox"> Communication strength is directness.</label>
+  <label><input type="checkbox"> Believes productivity is an organization’s best asset.</label>
+
+  <h3>Personality & Behaviors</h3>
+  <label><input type="checkbox"> Strong, dominating.</label>
+  <label><input type="checkbox"> Fast-paced, business-like, confident.</label>
+  <label><input type="checkbox"> Directive tone of voice.</label>
+  <label><input type="checkbox"> May seem controlling.</label>
+  <label><input type="checkbox"> Speech: sharp, quick, efficient.</label>
+  <label><input type="checkbox"> Restless gestures and movement.</label>
+  <label><input type="checkbox"> Leans forward to make a point.</label>
+  <label><input type="checkbox"> Authoritative manner.</label>
+  <label><input type="checkbox"> Makes statements more often than questions.</label>
+  <label><input type="checkbox"> Talks about “the bottom line”.</label>
+  <label><input type="checkbox"> Solution-oriented and action-oriented.</label>
+  <label><input type="checkbox"> Expects a response immediately.</label>
+  <label><input type="checkbox"> May seem to override others.</label>
+  <label><input type="checkbox"> Uses achievement-oriented language.</label>
+  <label><input type="checkbox"> Reacts immediately to a given situation.</label>
+  <label><input type="checkbox"> Pays attention to a speaker’s words and action plan.</label>
+  <label><input type="checkbox"> Energy: extroverted, direct.</label>
+  <p class="result">Boss Total: <span id="bossTotal">0</span></p>
+</div>
+
+<!-- ================= DREAMER ================= -->
+<div id="Dreamer" class="category">
+  <h2>Dreamer • Motivator</h2>
+  <h3>Communication Style at Work</h3>
+  <label><input type="checkbox"> Seeks alignment between what is and what might be in an organization.</label>
+  <label><input type="checkbox"> Explores possibilities when working with people.</label>
+  <label><input type="checkbox"> Makes people feel energized and excited.</label>
+  <label><input type="checkbox"> Works well with staff who are quick both in thought and action.</label>
+  <label><input type="checkbox"> Are highly intuitive in making decisions.</label>
+  <label><input type="checkbox"> Have difficulty tolerating people who can’t see what needs to be done.</label>
+  <label><input type="checkbox"> Likes sharing their enthusiasm with people.</label>
+  <label><input type="checkbox"> Have a vision for the organization’s future.</label>
+  <label><input type="checkbox"> Will focus on ideas first.</label>
+  <label><input type="checkbox"> Are sometimes too scattered and volatile.</label>
+  <label><input type="checkbox"> Communication strength is articulating the big picture and sharing the vision.</label>
+  <label><input type="checkbox"> Believes creativity is an organization’s best asset.</label>
+
+  <h3>Personality & Behaviors</h3>
+  <label><input type="checkbox"> Outgoing, “bubbly”.</label>
+  <label><input type="checkbox"> Enthusiastic, spontaneous, responsive.</label>
+  <label><input type="checkbox"> Animated expressions (smiles, nods, frowns).</label>
+  <label><input type="checkbox"> Speech: colorful, dramatic.</label>
+  <label><input type="checkbox"> Open gestures (e.g., hands free, palms up).</label>
+  <label><input type="checkbox"> Friendly, fun manner.</label>
+  <label><input type="checkbox"> May seem flighty and disorganized.</label>
+  <label><input type="checkbox"> Shares personal feelings freely.</label>
+  <label><input type="checkbox"> Responds enthusiastically.</label>
+  <label><input type="checkbox"> Wants collaboration and reactions from others.</label>
+  <label><input type="checkbox"> Paints pictures with words.</label>
+  <label><input type="checkbox"> Uses intuition.</label>
+  <label><input type="checkbox"> Tends to discount details as unnecessary.</label>
+  <label><input type="checkbox"> Frequent eye-contact while listening.</label>
+  <label><input type="checkbox"> Pays attention to a speaker’s emotional energy while listening.</label>
+  <label><input type="checkbox"> Energy: extroverted, excited.</label>
+  <p class="result">Dreamer Total: <span id="dreamerTotal">0</span></p>
+</div>
+
+<hr>
+<h2>Summary</h2>
+<p id="summaryText">Relator: 0 | Analyzer: 0 | Boss: 0 | Dreamer: 0</p>
+<button onclick="sendResults()">Send Results via Email</button>
+
+<script>
+function updateTotals() {
+  const totals = {
+    relator: document.querySelectorAll('#Relator input:checked').length,
+    analyzer: document.querySelectorAll('#Analyzer input:checked').length,
+    boss: document.querySelectorAll('#Boss input:checked').length,
+    dreamer: document.querySelectorAll('#Dreamer input:checked').length
+  };
+
+  document.getElementById('relatorTotal').textContent = totals.relator;
+  document.getElementById('analyzerTotal').textContent = totals.analyzer;
+  document.getElementById('bossTotal').textContent = totals.boss;
+  document.getElementById('dreamerTotal').textContent = totals.dreamer;
+  document.getElementById('summaryText').textContent =
+    `Relator: ${totals.relator} | Analyzer: ${totals.analyzer} | Boss: ${totals.boss} | Dreamer: ${totals.dreamer}`;
+  
+  return totals;
+}
+
+document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.addEventListener('change', updateTotals));
+
+function sendResults() {
+  const c = updateTotals();
+  const body = `Here are my Communication Style results:%0D%0A
+Relator: ${c.relator}%0D%0A
+Analyzer: ${c.analyzer}%0D%0A
+Boss: ${c.boss}%0D%0A
+Dreamer: ${c.dreamer}%0D%0A`;
+  window.location.href = `mailto:laura@tahoetrainingpartners.com?subject=Communication Styles Results&body=${body}`;
+}
+</script>
+</body>
+</html>
